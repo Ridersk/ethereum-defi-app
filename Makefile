@@ -11,15 +11,28 @@ install:
 	${YARN_INSTALL_DEPENDENCIES}
 	${GANACHE_DOWNLOAD}
 
+# Run Network Before compile and migrate
 run-network-cli:
 	ganache-cli
 
 run-network-gui:
 	./local-network/ganache.AppImage
 
-
 compile:
 	truffle compile
 
-migrate:
+deploy:
 	truffle migrate
+
+console:
+	truffle console
+
+get-balance:
+	truffle exec ./scripts/getMyTokenBalance.js
+
+transfer-token:
+	truffle exec ./scripts/transferMyTokenToFarmToken.js
+
+withdraw-token:
+	truffle exec ./scripts/withdrawMyTokenFromTokenFarm.js
+

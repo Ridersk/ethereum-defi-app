@@ -1,8 +1,12 @@
 const MyToken = artifacts.require("MyToken");
+const FarmToken = artifacts.require("FarmToken");
 
 module.exports = async function (deployer, network, accounts) {
   // Deploy MyToken
   await deployer.deploy(MyToken);
-  await MyToken.deployed();
-  // const myToken = await MyToken.deployed()
+  const myToken = await MyToken.deployed();
+
+  // Deploy FarmToken
+  await deployer.deploy(FarmToken, myToken.address);
+  await FarmToken.deployed();
 };
