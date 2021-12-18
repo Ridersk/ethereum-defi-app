@@ -1,2 +1,27 @@
-# ethereum-defi-app
-Smart Contract Defi App example from Ethereum Docs: https://ethereum.org/en/developers/tutorials/create-and-deploy-a-defi-app/
+# Ethereum Defi App
+
+## Setup
+
+Install Truffle:
+
+```shell
+npm install -g global truffle
+```
+
+Check version:
+
+```shell
+truffle version
+```
+
+Compile:
+
+```shell
+truffle compile
+```
+
+Deploy
+
+```shell
+truffle migrate
+```

@@ -1,0 +1,12 @@
+{
+  "name": "ethereum-defi-app",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "repository": "git@github.com:Ridersk/ethereum-defi-app.git",
+  "author": "lucas <lucasmacielaguiar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "5.4.25",
+    "@openzeppelin/contracts": "^4.4.1"
+  }
+}
