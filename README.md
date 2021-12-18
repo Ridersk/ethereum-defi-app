@@ -2,6 +2,8 @@
 
 ## Setup
 
+## Manual installation
+
 Install Truffle:
 
 ```shell
@@ -13,6 +15,16 @@ Check version:
 ```shell
 truffle version
 ```
+
+### Makefile
+
+Install dependecies
+
+```shell
+make install
+```
+
+### Running app
 
 Compile:
 

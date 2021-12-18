@@ -6,7 +6,9 @@
   "author": "lucas <lucasmacielaguiar@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "truffle": "5.4.25",
-    "@openzeppelin/contracts": "^4.4.1"
+    "@openzeppelin/contracts": "^4.4.1",
+    "ganache-cli": "^6.12.2",
+    "global": "^4.4.0",
+    "truffle": "^5.4.25"
   }
 }
