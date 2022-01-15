@@ -4,7 +4,7 @@ GANACHE_DOWNLOAD = \
 	chmod +x local-network/ganache.AppImage
 
 YARN_INSTALL_DEPENDENCIES = \
-	yarn add global truffle ganache-cli &&\
+	yarn global add truffle ganache-cli &&\
 	yarn install
 
 install:
